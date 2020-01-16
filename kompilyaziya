@@ -1,0 +1,7 @@
+cc -I /Users/tquence/std/fdf/new to4ka.c -L /Users/tquence/std/fdf/minilibx_macos -lmlx -framework OpenGL -framework AppKit libft/libft.a
+cc -I /Users/tquence/std/fdf/new new_new.c -L /Users/tquence/std/fdf/minilibx_macos -lmlx -framework OpenGL -framework AppKit libft/libft.a
+cc -I /Users/tquence/std/fdf/new draw.c new_new.c -L /Users/tquence/std/fdf/minilibx_macos -lmlx -framework OpenGL -framework AppKit libft/libft.a
+cc -I /Users/tquence/std/fdf/new new_to4ka.c -L /Users/tquence/std/fdf/minilibx_macos -lmlx -framework OpenGL -framework AppKit libft/libft.a
+cc -I /Users/tquence/std/fdf/new draw_new.c new_new.c -L /Users/tquence/std/fdf/minilibx_macos -lmlx -framework OpenGL -framework AppKit libft/libft.a
+cc -I /Users/tquence/std/fdf/new new_new.c -L minilibx_macos -lmlx -framework OpenGL -framework AppKit libft/libft.a
+cc -I /Users/tquence/std/fdf/new draw.c valid.c ft_fdf.c main.c -L minilibx_macos -lmlx -framework OpenGL -framework AppKit libft/libft.a
