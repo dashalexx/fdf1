@@ -29,6 +29,8 @@ int		valid(char **map, t_fdf *fdf)
 	int			i;
 	int			j;
 
+	if (!(*map) || !(**map))
+		return (1);
 	i = 0;
 	fdf->k = count_symb(*map);
 	while (map[i] != 0)
